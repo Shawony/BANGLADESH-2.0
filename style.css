@@ -16,6 +16,7 @@
   color: #006a50;
   font-weight: 600;
   padding: 15px 30px;
+  margin: 24px;
   border-radius: 8px;
   border-color: #006a50;
 }
@@ -50,11 +51,17 @@ nav ul li {
 
 /* banner styles */
 
-.bannar {
-  margin-left: 60px;
-  padding: 60px 117px;
+.banner {
   display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
 }
+
+.parent-content {
+  margin-left: 60px;
+  padding: 117px 60px;
+}
+
 .banner-title {
   font-size: 24px;
   color: rgba(14, 14, 14, 0.5);
@@ -64,4 +71,10 @@ nav ul li {
 .banner-idea {
   font-size: 56px;
   font-weight: bold;
+}
+
+.banner-profile-pic {
+  width: 475px;
+  height: 400px;
+  padding: 80px 60px;
 }
